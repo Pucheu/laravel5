@@ -101,7 +101,7 @@
 
     <!-- logo_cesi (Image) -->
     <div id="u1142" class="ax_default image selected" data-label="logo_cesi">
-        <img id="u1142_img" class="img " src="images/accueil/logo_cesi_u9.png"/>
+        <img id="u1142_img" class="img " src="images/test/logo_cesi_u9.png"/>
         <!-- Unnamed () -->
         <div id="u1143" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -110,7 +110,7 @@
 
     <!-- logo_alumni (Image) -->
     <div id="u1144" class="ax_default image selected" data-label="logo_alumni">
-        <img id="u1144_img" class="img " src="images/accueil/logo_alumni_u11.png"/>
+        <img id="u1144_img" class="img " src="images/test/logo_alumni_u11.png"/>
         <!-- Unnamed () -->
         <div id="u1145" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -119,7 +119,7 @@
 
     <!-- logo_certification (Image) -->
     <div id="u1146" class="ax_default image selected" data-label="logo_certification">
-        <img id="u1146_img" class="img " src="images/accueil/logo_certification_u13.png"/>
+        <img id="u1146_img" class="img " src="images/test/logo_certification_u13.png"/>
         <!-- Unnamed () -->
         <div id="u1147" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -128,7 +128,7 @@
 
     <!-- logo_entreprise (Image) -->
     <div id="u1148" class="ax_default image selected" data-label="logo_entreprise">
-        <img id="u1148_img" class="img " src="images/accueil/logo_entreprise_u15.png"/>
+        <img id="u1148_img" class="img " src="images/test/logo_entreprise_u15.png"/>
         <!-- Unnamed () -->
         <div id="u1149" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -137,7 +137,7 @@
 
     <!-- logo_alternace (Image) -->
     <div id="u1150" class="ax_default image selected" data-label="logo_alternace">
-        <img id="u1150_img" class="img " src="images/accueil/logo_alternace_u17.png"/>
+        <img id="u1150_img" class="img " src="images/test/logo_alternace_u17.png"/>
         <!-- Unnamed () -->
         <div id="u1151" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -146,7 +146,7 @@
 
     <!-- logo_ei (Image) -->
     <div id="u1152" class="ax_default image selected" data-label="logo_ei">
-        <img id="u1152_img" class="img " src="images/accueil/logo_ei_u19.png"/>
+        <img id="u1152_img" class="img " src="images/test/logo_ei_u19.png"/>
         <!-- Unnamed () -->
         <div id="u1153" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -155,7 +155,7 @@
 
     <!-- Unnamed (Image) -->
     <div id="u1154" class="ax_default image selected">
-        <img id="u1154_img" class="img " src="images/accueil/u21.png"/>
+        <img id="u1154_img" class="img " src="images/test/u21.png"/>
         <!-- Unnamed () -->
         <div id="u1155" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -211,7 +211,7 @@
 
     <!-- Unnamed (Image) -->
     <div id="u1167" class="ax_default image">
-        <img id="u1167_img" class="img " src="images/accueil/u32.png"/>
+        <img id="u1167_img" class="img " src="images/test/u32.png"/>
         <!-- Unnamed () -->
         <div id="u1168" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -220,7 +220,7 @@
 
     <!-- Unnamed (Image) -->
     <div id="u1169" class="ax_default image">
-        <img id="u1169_img" class="img " src="images/accueil/u34.png"/>
+        <img id="u1169_img" class="img " src="images/test/u34.png"/>
         <!-- Unnamed () -->
         <div id="u1170" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -229,7 +229,7 @@
 
     <!-- Unnamed (Image) -->
     <div id="u1171" class="ax_default image">
-        <img id="u1171_img" class="img " src="images/accueil/u36.png"/>
+        <img id="u1171_img" class="img " src="images/test/u36.png"/>
         <!-- Unnamed () -->
         <div id="u1172" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -238,7 +238,7 @@
 
     <!-- Unnamed (Image) -->
     <div id="u1173" class="ax_default image">
-        <img id="u1173_img" class="img " src="images/accueil/u38.png"/>
+        <img id="u1173_img" class="img " src="images/test/u38.png"/>
         <!-- Unnamed () -->
         <div id="u1174" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
