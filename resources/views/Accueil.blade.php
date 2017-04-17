@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <link rel="stylesheet" href="{{ asset('css/acccueil.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/accueil.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/jquery-ui-themes.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('cssaxure_rp_page.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/styless.css') }}">
