@@ -59,7 +59,7 @@
         <div id="u57_div" class=""></div>
         <!-- Unnamed () -->
         <div id="u58" class="text">
-            <p><span style="text-decoration:underline;">Nous contacter</span></p>
+                       <p><span style="text-decoration:underline;">Nous contacter </span></p>
         </div>
     </div>
 
@@ -95,7 +95,7 @@
         <img id="u65_img" class="img " src="images/test/logo_entreprise_u15.png"/>
         <!-- Unnamed () -->
         <div id="u66" class="text" style="display:none; visibility: hidden">
-            <p><span></span></p>
+            <p><span></a></span></p>
         </div>
     </div>
 
