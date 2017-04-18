@@ -69,10 +69,8 @@ Route::get('panier/nom_utilisateur', function () {
     return view('panier');
 });
 
-
-
 Route::get('photo','PhotoController@getForm');
 Route::post('photo','PhotoController@getForm');
-Route::get('users','UsersController');
+
 
 
