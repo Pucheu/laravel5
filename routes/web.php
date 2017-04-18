@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('accueil');
+    return view('detail_evenement');
 });
 Route::get('accueil', function () {
     return view('accueil');
@@ -68,3 +68,6 @@ Route::get('compte/nom_utilisateur', function () {
 Route::get('panier/nom_utilisateur', function () {
     return view('panier');
 });
+
+Route::get('photo','PhotoController@getForm');
+Route::post('photo','PhotoController@getForm');

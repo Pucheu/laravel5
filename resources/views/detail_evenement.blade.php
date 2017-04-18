@@ -21,6 +21,12 @@
         $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
         $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
     </script>
+    {!! Html::style('https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css') !!}
+		{!! Html::style('https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css') !!}
+		<!--[if lt IE 9]>
+    {{ Html::style('https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js') }}
+    {{ Html::style('https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js') }}
+    <![endif]-->
 </head>
 <body>
 <div id="base" class="">
@@ -134,13 +140,41 @@
     </div>
 
     <!-- bouton_ajouter_photo (Rectangle) -->
-    <div id="u601" class="ax_default button" data-label="bouton_ajouter_photo">
-        <div id="u601_div" class=""></div>
+    <div id="u601">
         <!-- Unnamed () -->
-        <div id="u602" class="text">
-            <p><span>Ajouter une photo</span></p>
+        <div id="u602">
+            <div class="panel panel-info">
+
+                <div class="panel-heading">Envoi d'une photo</div>
+
+                <div class="panel-body">
+
+                    @if(session()->has('error'))
+
+                        <div class="alert alert-danger">{!! session('error') !!}</div>
+
+                    @endif
+
+                    {!! Form::open(['url' => 'photo', 'files' => true]) !!}
+
+                    <div class="form-group {!! $errors->has('image') ? 'has-error' : '' !!}">
+
+                        {!! Form::file('image', ['class' => 'form-control']) !!}
+
+                        {!! $errors->first('image', '<small class="help-block">:message</small>') !!}
+
+                    </div>
+
+                    {!! Form::submit('Envoyer !', ['class' => 'btn btn-info pull-right']) !!}
+
+                    {!! Form::close() !!}
+
+                </div>
+
+            </div>
         </div>
     </div>
+
 
     <!-- bouton_inscrire (Rectangle) -->
     <div id="u603" class="ax_default button" data-label="bouton_inscrire">
@@ -416,5 +450,6 @@
         </div>
     </div>
 </div>
+
 </body>
 </html>
