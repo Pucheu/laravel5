@@ -68,6 +68,3 @@ Route::get('compte/nom_utilisateur', function () {
 Route::get('panier/nom_utilisateur', function () {
     return view('panier');
 });
-Route::get('test', function () {
-    return view('test');
-});

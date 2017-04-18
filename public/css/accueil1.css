@@ -17,8 +17,9 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:1625px;
-  height:81px;
+  width: 80%;
+  max-width: 1000px;
+  min-width: 700px;
   background:inherit;
   background-color:rgba(242, 242, 242, 1);
   border:none;
