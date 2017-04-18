@@ -219,31 +219,32 @@
     </div>
 
     <!-- boutique (Rectangle) -->
-    <div id="u144" class="ax_default heading_1" data-label="boutique">
-        <div id="u144_div" class=""></div>
+    <a id="u144" class="ax_default heading_1" data-label="evenements" href="{{ url('liste_evenement') }}">
+
+        <div id="u144_div" class="" ></div>
         <!-- Unnamed () -->
-        <div id="u145" class="text">
+        <div id="u145" class="text" >
             <p><span>Nos événements</span></p>
         </div>
-    </div>
+    </a>
 
     <!-- evenements (Rectangle) -->
-    <div id="u146" class="ax_default heading_1" data-label="evenements">
+    <a id="u146" class="ax_default heading_1" data-label="boutique" href="{{ url('boutique') }}">
         <div id="u146_div" class=""></div>
         <!-- Unnamed () -->
         <div id="u147" class="text">
             <p><span>Notre boutique</span></p>
         </div>
-    </div>
+    </a>
 
     <!-- Accueil (Rectangle) -->
-    <div id="u148" class="ax_default heading_1" data-label="Accueil">
+    <a id="u148" class="ax_default heading_1" data-label="Accueil" href="{{ url('accueil') }}" >
         <div id="u148_div" class=""></div>
         <!-- Unnamed () -->
         <div id="u149" class="text">
             <p><span>Accueil</span></p>
         </div>
-    </div>
+    </a>
 
     <!-- image (Image) -->
     <div id="u150" class="ax_default image" data-label="image">

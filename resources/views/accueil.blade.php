@@ -228,22 +228,22 @@
     </div>
 
     <!-- nos evenements (Rectangle) -->
-    <div id="u92" class="ax_default heading_1" data-label="nos evenements">
+    <a id="u92" class="ax_default heading_1" data-label="nos evenements" href="{{ url('liste_evenement') }}">
         <div id="u92_div" class=""></div>
         <!-- Unnamed () -->
-        <a id="u93" href="{{ url('liste_evenement') }}" class="text">
+        <div id="u93" class="text">
             <p><span>Nos événements</span></p>
-        </a>
-    </div>
+        </div>
+    </a>
 
     <!-- notre boutique (Rectangle) -->
-    <div id="u94" class="ax_default heading_1" data-label="notre boutique">
+    <a id="u94" class="ax_default heading_1" data-label="notre boutique" href="{{ url('boutique') }}">
         <div id="u94_div" class=""></div>
         <!-- Unnamed () -->
-        <a id="u97" href="{{ url('boutique') }}" class="text">
+        <div id="u97" class="text">
             <p><span>Notre boutique</span></p>
-        </a>
-    </div>
+        </div>
+    </a>
     <!--
     <div id="u94" class="ax_default heading_1" data-label="notre boutique">
         <div id="u94_div" class=""></div>
@@ -254,12 +254,12 @@
     </div>
 
     <!-- Acceuil (Rectangle) -->
-    <div id="u96" class="ax_default heading_1" data-label="Acceuil">
+    <a id="u96" class="ax_default heading_1" data-label="Acceuil" href="{{ url('accueil') }}">
         <div id="u96_div" class=""></div>
         <!-- Unnamed () -->
-        <a id="u97" href="{{ url('accueil') }}" class="text">
+        <div id="u97" " class="text">
             <p><span>Accueil</span></p>
-        </a>
+        </div>
     </div>
     <!-- <div id="u96" class="ax_default heading_1" data-label="Acceuil">
         <div id="u96_div" class=""></div>
