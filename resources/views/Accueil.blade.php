@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <link rel="stylesheet" href="{{ asset('css/acccueil.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('css/accueil1.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/jquery-ui-themes.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('cssaxure_rp_page.css') }}">
     <link rel="stylesheet" href="{{ URL::asset('css/styless.css') }}">
@@ -59,7 +59,7 @@
         <div id="u57_div" class=""></div>
         <!-- Unnamed () -->
         <div id="u58" class="text">
-            <p><span style="text-decoration:underline;">Nous contacter</span></p>
+                       <p><span style="text-decoration:underline;">Nous contacter </span></p>
         </div>
     </div>
 
@@ -95,7 +95,7 @@
         <img id="u65_img" class="img " src="images/test/logo_entreprise_u15.png"/>
         <!-- Unnamed () -->
         <div id="u66" class="text" style="display:none; visibility: hidden">
-            <p><span></span></p>
+            <p><span></a></span></p>
         </div>
     </div>
 
