@@ -219,7 +219,7 @@
     </div>
 
     <!-- boutique (Rectangle) -->
-    <a id="u144" class="ax_default heading_1" data-label="evenements" href="{{ url('liste_evenement') }}">
+    <a id="u144" class="ax_default heading_1" data-label="evenements" href="{{ url('evenement') }}">
 
         <div id="u144_div" class="" ></div>
         <!-- Unnamed () -->

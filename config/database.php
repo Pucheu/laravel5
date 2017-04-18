@@ -66,7 +66,38 @@ return [
             'schema' => 'public',
             'sslmode' => 'prefer',
         ],
+        /* Hebergeur
+            'mysql' => [
 
+                'host' => env('DB_HOST', 'localhost'),
+                'port' => env('DB_PORT', '3306'),
+                'driver'    => 'mysql',
+                'database'  => 'id1383603_web1',
+                'username'  => 'id1383603_florian',
+                'password'  => 'Projetweb',
+                'charset' => 'utf8mb4',
+                'collation' => 'utf8mb4_unicode_ci',
+                'prefix'    => '',
+            ],
+            */
+
+
+
+
+        /* Local Host */
+        'mysql' => [
+
+            'host' => env('DB_HOST', 'localhost'),
+            'port' => env('DB_PORT', '8888'),
+            'driver'    => 'mysql',
+            'database'  => 'WebP3',
+            'username'  => 'root',
+            'password'  => 'root',
+            'charset' => 'utf8mb4',
+            'collation' => 'utf8mb4_unicode_ci',
+            'prefix'    => '',
+
+        ],
     ],
 
     /*
