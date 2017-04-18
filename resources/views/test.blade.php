@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="fr">
 <head>
     <meta charset="utf-8">
@@ -49,5 +50,35 @@
     </div>
 
 </div>
+=======
+<html>
+<head>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<h3>My Google Maps Demo</h3>
+<div id="map"></div>
+<script>
+    function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_qBpLpipBcc4aa2iKHGABkrDGpz2Vuh4&callback=initMap">
+</script>
+>>>>>>> 6157fd6d9b27665848763e30334466d326bc277b
 </body>
 </html>

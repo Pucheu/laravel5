@@ -132,9 +132,25 @@
 
     <!-- API_google (Placeholder) -->
     <div id="u599" class="ax_default placeholder" data-label="API_google">
-        <img id="u599_img" class="img " src="images/d_tail__v_nement/api_google_u599.png"/>
+
         <!-- Unnamed () -->
         <div id="u600" class="text">
+            <script>
+                function initMap() {
+                    var uluru = {lat: 44.919299, lng: -0.630166};
+                    var map = new google.maps.Map(document.getElementById('u599'), {
+                        zoom: 15,
+                        center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                    });
+                }
+            </script>
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_qBpLpipBcc4aa2iKHGABkrDGpz2Vuh4&callback=initMap">
+            </script>
             <p><span>API GOOGLE lieu événement</span></p>
         </div>
     </div>
@@ -173,6 +189,7 @@
 
             </div>
         </div>
+
     </div>
 
 
@@ -449,6 +466,7 @@
             <p><span>Commentaires photo :</span></p><p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget.</span></p>
         </div>
     </div>
+
 </div>
 
 </body>

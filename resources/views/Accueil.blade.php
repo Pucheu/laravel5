@@ -49,32 +49,35 @@
     <div id="u55" class="ax_default link_button" data-label="mentions">
         <div id="u55_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u56" class="text">
+        <a id="u56" href= "{{ url('mention') }}"  class="text">
             <p><span style="text-decoration:underline;">Mentions légales</span><span> </span></p>
-        </div>
+        </a>
     </div>
 
     <!-- contact (Rectangle) -->
     <div id="u57" class="ax_default link_button" data-label="contact">
         <div id="u57_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u58" class="text">
-                       <p><span style="text-decoration:underline;">Nous contacter </span></p>
-        </div>
+        <a id="u58" href= "{{ url('contact') }}" class="text">
+                       <p><span style="text-decoration:underline;" >Nous contacter </span></p>
+        </a>
     </div>
 
-    <!-- logo_cesi (Image) -->
+    <!-- logo_cesi (Image) --><
     <div id="u59" class="ax_default image selected" data-label="logo_cesi">
-        <img id="u59_img" class="img " src="images/test/logo_cesi_u9.png"/>
+        <img id="u59_img" class="img " src="img/logo_cesi.png"/>
         <!-- Unnamed () -->
         <div id="u60" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
         </div>
     </div>
 
+
+
     <!-- logo_alumni (Image) -->
     <div id="u61" class="ax_default image selected" data-label="logo_alumni">
-        <img id="u61_img" class="img " src="images/test/logo_alumni_u11.png"/>
+        {{ Html::image('img/logo_alumni.jpg', 'a picture', array('id' => 'u61')) }}
+        <img id="u61_img" class="img " src="img/logo_alumni.png"/>
         <!-- Unnamed () -->
         <div id="u62" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -83,7 +86,7 @@
 
     <!-- logo_certification (Image) -->
     <div id="u63" class="ax_default image selected" data-label="logo_certification">
-        <img id="u63_img" class="img " src="images/test/logo_certification_u13.png"/>
+        <img id="u63_img" class="img " src="img/logo_certification.png"/>
         <!-- Unnamed () -->
         <div id="u64" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -92,16 +95,16 @@
 
     <!-- logo_entreprise (Image) -->
     <div id="u65" class="ax_default image selected" data-label="logo_entreprise">
-        <img id="u65_img" class="img " src="images/test/logo_entreprise_u15.png"/>
+        <img id="u65_img" class="img " src="img/logo_entreprise.png"/>
         <!-- Unnamed () -->
         <div id="u66" class="text" style="display:none; visibility: hidden">
-            <p><span></a></span></p>
+            <p><span></span></p>
         </div>
     </div>
 
     <!-- logo_alternace (Image) -->
     <div id="u67" class="ax_default image selected" data-label="logo_alternace">
-        <img id="u67_img" class="img " src="images/test/logo_alternace_u17.png"/>
+        <img id="u67_img" class="img " src="img/logo_alternace.png"/>
         <!-- Unnamed () -->
         <div id="u68" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -110,7 +113,7 @@
 
     <!-- logo_ei (Image) -->
     <div id="u69" class="ax_default image selected" data-label="logo_ei">
-        <img id="u69_img" class="img " src="images/test/logo_ei_u19.png"/>
+        <img id="u69_img" class="img " src="img/logo_ei.png"/>
         <!-- Unnamed () -->
         <div id="u70" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -119,7 +122,7 @@
 
     <!-- Unnamed (Image) -->
     <div id="u71" class="ax_default image selected">
-        <img id="u71_img" class="img " src="images/test/u21.png"/>
+        <img id="u71_img" class="img " src="img/logo_exia.png"/>
         <!-- Unnamed () -->
         <div id="u72" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -138,27 +141,40 @@
     </div>
 
     <!-- inscrire (Rectangle) -->
-    <div id="u76" class="ax_default button" data-label="inscrire">
+    <!-- <div id="u76" class="ax_default button" data-label="inscrire">
+         <div id="u76_div" class=""></div>
+         <!-- Unnamed () -->
+    <!-- <div id="u77" class="text">
+         <p><span>S'incrire</span></p>
+     </div>
+ </div>-->
+    <a  id="u76" class="btn" data-label="inscrire"  href="{{ url('inscription') }}">
         <div id="u76_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u77" class="text">
-            <p><span>S'incrire</span></p>
-        </div>
-    </div>
-
-    <!-- connexion (Rectangle) -->
+         <div id="u77" class="text">
+             <p><span>S'incrire</span></p>
+         </div>
+    </a>
+    <!-- connexion (Rectangle)
     <div id="u78" class="ax_default button" data-label="connexion">
+        <div id="u78_div" class=""></div>
+        <!-- Unnamed ()
+        <div id="u79" class="text">
+            <p><span>Connexion</span></p>
+        </div>
+    </div>-->
+    <a  id="u78" class="btn" data-label="connexion"  href="{{ url('connexion') }}">
         <div id="u78_div" class=""></div>
         <!-- Unnamed () -->
         <div id="u79" class="text">
             <p><span>Connexion</span></p>
         </div>
-    </div>
+    </a>
 
     <!-- Unnamed (Image) -->
     <div id="u80" class="ax_default image">
-        <img id="u80_img" class="img " src="images/logo.jpg"/>
-        <!-- Unnamed () -->
+        <a href="#">{{ HTML::image("img/logo_bde.jpg", "Logo") }}</a>
+               <!-- Unnamed () -->
         <div id="u81" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
         </div>
@@ -166,7 +182,7 @@
 
     <!-- Unnamed (Image) -->
     <div id="u82" class="ax_default image">
-        <img id="u82_img" class="img " src="images/test/u32.png"/>
+        <img id="u82_img" class="img " src="img/mail.png"/>
         <!-- Unnamed () -->
         <div id="u83" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -175,7 +191,7 @@
 
     <!-- Unnamed (Image) -->
     <div id="u84" class="ax_default image">
-        <img id="u84_img" class="img " src="images/test/u34.png"/>
+        <img id="u84_img" class="img " src="img/facebook.png"/>
         <!-- Unnamed () -->
         <div id="u85" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -184,7 +200,8 @@
 
     <!-- Unnamed (Image) -->
     <div id="u86" class="ax_default image">
-        <img id="u86_img" class="img " src="images/test/u36.png"/>
+        <a id="u86_img" href="https://www.youtube.com/">{{ HTML::image("img/youtube.png", "Logo") }}</a>
+       <!-- <img id="u86_img" class="img " src="img/youtube.png"/> -->
         <!-- Unnamed () -->
         <div id="u87" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -193,7 +210,8 @@
 
     <!-- Unnamed (Image) -->
     <div id="u88" class="ax_default image">
-        <img id="u88_img" class="img " src="images/test/u38.png"/>
+        <a href="https://twitter.com/login?lang=fr">{{ HTML::image("img/twitter.png", "Logo") }}</a>
+       <!-- <img id="u88_img" class="img " src="img/twitter.png"/> -->
         <!-- Unnamed () -->
         <div id="u89" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
@@ -213,16 +231,24 @@
     <div id="u92" class="ax_default heading_1" data-label="nos evenements">
         <div id="u92_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u93" class="text">
+        <a id="u93" href="{{ url('liste_evenement') }}" class="text">
             <p><span>Nos événements</span></p>
-        </div>
+        </a>
     </div>
 
     <!-- notre boutique (Rectangle) -->
     <div id="u94" class="ax_default heading_1" data-label="notre boutique">
         <div id="u94_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u95" class="text">
+        <a id="u97" href="{{ url('boutique') }}" class="text">
+            <p><span>Notre boutique</span></p>
+        </a>
+    </div>
+    <!--
+    <div id="u94" class="ax_default heading_1" data-label="notre boutique">
+        <div id="u94_div" class=""></div>
+
+        <div id="u95" href="{{ url('boutique') }} class="text">
             <p><span>Notre boutique</span></p>
         </div>
     </div>
@@ -231,14 +257,21 @@
     <div id="u96" class="ax_default heading_1" data-label="Acceuil">
         <div id="u96_div" class=""></div>
         <!-- Unnamed () -->
-        <div id="u97" class="text">
+        <a id="u97" href="{{ url('accueil') }}" class="text">
+            <p><span>Accueil</span></p>
+        </a>
+    </div>
+    <!-- <div id="u96" class="ax_default heading_1" data-label="Acceuil">
+        <div id="u96_div" class=""></div>
+        <!-- Unnamed ()
+        <a id="u97" href="{{ url('accueil') }} class="text">
             <p><span>Accueil</span></p>
         </div>
     </div>
 
     <!-- image (Image) -->
     <div id="u98" class="ax_default image" data-label="image">
-        <img id="u98_img" class="img " src="images/test/image_u48.jpg"/>
+        <img id="u98_img" class="img " src="img/image_u48.jpg"/>
         <!-- Unnamed () -->
         <div id="u99" class="text" style="display:none; visibility: hidden">
             <p><span></span></p>
