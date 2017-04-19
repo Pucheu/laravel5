@@ -70,6 +70,7 @@ Route::get('panier/nom_utilisateur', function () {
 });
 
 
+
 Route::get('photo','PhotoController@getForm');
 Route::post('photo','PhotoController@getForm');
 
