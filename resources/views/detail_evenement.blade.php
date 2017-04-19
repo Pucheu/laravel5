@@ -50,31 +50,31 @@
     </div>
 
     <!-- Unnamed (Rectangle) -->
-    <div id="u581" class="ax_default heading_1">
+    <a id="u581" class="ax_default heading_1" href="{{ url('evenement') }}">
         <div id="u581_div" class=""></div>
         <!-- Unnamed () -->
         <div id="u582" class="text">
             <p><span>Nos événements</span></p>
         </div>
-    </div>
+    </a>
 
     <!-- Unnamed (Rectangle) -->
-    <div id="u583" class="ax_default heading_1">
+    <a id="u583" class="ax_default heading_1" href="{{ url('boutique') }}">
         <div id="u583_div" class=""></div>
         <!-- Unnamed () -->
         <div id="u584" class="text">
             <p><span>Notre boutique</span></p>
         </div>
-    </div>
+    </a>
 
     <!-- Unnamed (Rectangle) -->
-    <div id="u585" class="ax_default heading_1">
+    <a id="u585" class="ax_default heading_1" href="{{ url('accueil') }}">
         <div id="u585_div" class=""></div>
         <!-- Unnamed () -->
         <div id="u586" class="text">
             <p><span>Accueil</span></p>
         </div>
-    </div>
+    </a>
 
     <!-- photo (Image) -->
     <div id="u587" class="ax_default image" data-label="photo">
